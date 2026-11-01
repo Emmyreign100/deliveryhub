@@ -1,0 +1,35 @@
+body {
+    background-color: #f8f9fa;
+    font-size: 1rem;
+}
+.hero {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    padding: 3rem 1rem;
+}
+.card {
+    transition: transform 0.2s;
+    margin-bottom: 1rem;
+}
+.card:hover {
+    transform: translateY(-3px);
+}
+footer {
+    border-top: 1px solid #dee2e6;
+    font-size: 0.85rem;
+}
+@media (max-width: 576px) {
+    .container { padding-left: 12px; padding-right: 12px; }
+    .btn { padding: 0.75rem 1rem; font-size: 1rem; }
+    .table { font-size: 0.9rem; }
+    h2 { font-size: 1.5rem; }
+    .input-group .btn { padding: 0.5rem; }
+    #map { height: 250px !important; }
+}
+.table-responsive {
+    border-radius: 8px;
+    overflow: hidden;
+}
+.badge {
+    font-size: 0.85em;
+}
