@@ -1,18 +1,33 @@
-# DeliveryHub - Delivery Platform System
+# DeliveryHub
 
-A full-featured delivery booking and management platform for customers and courier businesses. Supports Nigeria (NGN) with easy international expansion (multi-country, currency awareness).
+**Professional delivery booking & management platform** for customers and courier businesses. Built for Nigeria with international expansion ready.
 
-## Features
-- Customers: Register, book deliveries, track parcels online.
-- Courier businesses: Register, manage orders, update statuses.
-- Admin dashboard for full management and revenue tracking.
-- Monetization: 10% disclosed commission on completed bookings + subscription stubs.
-- Expanded statuses, payment stubs (Paystack/Stripe), email/SMS stubs, maps (Leaflet), mobile-friendly.
+### Live Demo & Source
+- **GitHub Repository**: https://github.com/Emmyreign100/deliveryhub
+- One-click deploy on Render: [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Emmyreign100/deliveryhub)
 
-## Demo Credentials
-- Admin: admin / admin123
+### Features
+- Customer registration, booking, online parcel tracking
+- Courier business registration and order management
+- Admin dashboard for full control and revenue tracking
+- Monetization: 10% disclosed commission on completed bookings + subscription stubs (Paystack/Stripe)
+- Expanded delivery statuses, interactive maps (Leaflet), email/SMS notification stubs, mobile-friendly UI
 
-## Deployment
-Ready for Render, Railway, or Vercel (with serverless adaptation).
+### Demo Credentials
+- **Admin**: `admin` / `admin123`
+- Register your own Customer or Courier accounts
 
-Built for Nigeria with international expansion potential.
+### Quick Start
+```bash
+git clone https://github.com/Emmyreign100/deliveryhub.git
+cd deliveryhub
+pip install -r requirements.txt
+python app.py
+```
+
+### Deployment Notes
+- Recommended: Render, Railway, or Fly.io (persistent disk for SQLite or switch to PostgreSQL)
+- Vercel requires serverless adaptation (functions)
+- For production: Use PostgreSQL, real payment webhooks, and SMS/email providers (Termii, Twilio, SendGrid)
+
+Built with Flask, Bootstrap 5, and Leaflet. Ready for Nigeria and global expansion.
